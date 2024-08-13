@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="page-title">House Price Prediction</h1>
+    <div class="content-container">
+        <div class="price">
+            The predicted price of the house is <span class="price-amount">₹{{ price | round(2) }}</span>
+        </div>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>

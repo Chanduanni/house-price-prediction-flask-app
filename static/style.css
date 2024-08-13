@@ -1,0 +1,135 @@
+body {
+    background-image: url('/static/house.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: -20px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+input[type="number"], input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.btn-primary {
+    background-color: #87CEEB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #00BFFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+th, td {
+    border: 2px solid #007bff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+
+.price {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    padding: 50px;
+    border-radius: 10px;
+    color: rgb(16, 34, 34);
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.price-amount {
+    background-color: #a3e5ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a {
+    color: #a3e5ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #87CEEB;
+}
