@@ -1,0 +1,35 @@
+.color-bg-container {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.color-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttons-style {
+  height: 18vw;
+  width: 22vw;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.slide-change {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.span-button {
+  color: #49a6e9;
+}
