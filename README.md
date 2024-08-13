@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## House Price Prediction Flask Application ##
 
 ## Project Overview
@@ -37,3 +38,7 @@ View the predicted house price displayed on the result page.
 
 ## License
 This project is licensed under the MIT License.
+=======
+# house-price-prediction-flask-app
+A Flask web app that predicts house prices using machine learning. Users enter house features (bedrooms, bathrooms, size, location) to get a price estimate. The app displays the prediction along with input details in a clear, user-friendly format.
+>>>>>>> origin/main
